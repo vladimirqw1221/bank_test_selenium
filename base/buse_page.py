@@ -21,3 +21,8 @@ class Buse():
     def allert_clouse(self):
         self.driver.switchTo().alert().accept()
         print("Clocse aleert")
+
+    """Click check box """
+    def click_on_checkbox(self):
+        self.driver.execute_script("document.querySelector('#show-suggest-subscription').click();")
+        print("click check box ")

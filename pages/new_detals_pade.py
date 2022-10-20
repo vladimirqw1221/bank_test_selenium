@@ -89,7 +89,7 @@ class New_pay(Buse):
         self.click_as_date()
         self.input_mobile_phonr_cl()
         self.imput_mobile_phonr("+7 (911) 999-99-99")
-        self.click_chek_box_sus()
+        self.click_on_checkbox()
         self.click_pay_btn_mob()
 
 
